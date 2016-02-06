@@ -8,7 +8,8 @@ progress with custom units, rate of progress, and estimated time remaining.
 
 .. image::  https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screenshot.png
     :alt: Timed Progress Bars
-    :width: 800
+    :width: 600
+    :height: 248
     :align: center
 
 Installation
