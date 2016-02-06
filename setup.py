@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='urwid_timed_progress',
-    version='1.0.0',
+    version='1.0.1',
     description='Urwid Timed Progress Bar',
     long_description=open("README.rst").read(),
     url='https://github.com/mgk/urwid_timed_progress/blob/master/README.rst',
