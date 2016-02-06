@@ -10,7 +10,7 @@ Example screenshot showing two progress bars:
 
 .. image::  https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screenshot.png
     :alt: Timed Progress Bars
-    :target: examples/current_file_and_overall_progress.py
+    :target: https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/examples/current_file_and_overall_progress.py
     :width: 600
     :height: 248
     :align: center
@@ -43,7 +43,7 @@ To update the timer without adding progress do::
 
 See `example code`_.
 
-.. _example code: examples
+.. _example code: https://github.com/mgk/urwid_timed_progress/blob/master/examples/
 
 .. |Docs| image:: https://readthedocs.org/projects/urwid-timed-progress/badge/?version=latest&style=flat
     :alt: Documentation Status
@@ -54,4 +54,4 @@ See `example code`_.
 .. |Build Status| image:: https://travis-ci.org/mgk/urwid_timed_progress.svg?branch=master
     :target: https://travis-ci.org/mgk/urwid_timed_progress
 .. |License| image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
-    :target: LICENSE
+    :target: https://github.com/mgk/urwid_timed_progress/blob/master/LICENSE
