@@ -11,7 +11,8 @@ very-clean: clean
 	find . -name '*.pyc' | xargs rm -f
 
 install:
-	pip install --upgrade urwid pytest pep8 sphinx sphinx-autobuild
+	pip install -r requirements.txt
+	pip install --upgrade pytest pep8 sphinx sphinx-autobuild
 	pip install --upgrade --editable .
 
 test-release: build test
