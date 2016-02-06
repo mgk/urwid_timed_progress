@@ -30,7 +30,7 @@ See `example code`_.
 .. |Docs| image:: https://readthedocs.org/projects/urwid_timed_progress/badge/?style=flat
     :alt: Documentation Status
     :scale: 100%
-    :target: https://readthedocs.org/projects/urwid_timed_progress/latest
+    :target: http://urwid-timed-progress.rtfd.org/
 .. |Downloads| image:: https://img.shields.io/pypi/dm/urwid_timed_progress.svg
     :target: https://pypi.python.org/pypi/urwid_timed_progress
 .. |Build Status| image:: https://travis-ci.org/mgk/urwid_timed_progress.svg?branch=master
