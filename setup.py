@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='urwid_timed_progress',
+    version='1.0.0',
+    description='Urwid Timed Progress Bar',
+    long_description=open("README.rst").read(),
+    url='https://github.com/mgk/urwid_timed_progress/blob/master/README.rst',
+    author='Michael Keirnan',
+    author_email='michael@keirnan.com',
+    packages=find_packages(exclude=["tests*"]),
+    include_package_data=True,
+    install_requires=['urwid >= 1.3.1'],
+    tests_require=['pytest'],
+    zip_safe=False,
+    platforms='any',
+    license='MIT',
+    keywords="ui widget curses progress bar",
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'Environment :: Console',
+        'Environment :: Console :: Curses',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Topic :: Software Development :: Widget Sets',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: Implementation :: PyPy',
+        ]
+)
