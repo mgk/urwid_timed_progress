@@ -50,4 +50,3 @@ if __name__ == '__main__':
         for i, s in enumerate(screenshot_collect()):
             with open('screenshot-{}.html'.format(i), 'w') as f:
                 f.write(s)
-
