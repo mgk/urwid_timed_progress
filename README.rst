@@ -49,9 +49,9 @@ See `example code`_.
     :alt: Documentation Status
     :scale: 100%
     :target: http://urwid-timed-progress.rtfd.org/
+
 .. |Downloads| image:: https://img.shields.io/pypi/dm/urwid_timed_progress.svg
     :target: https://pypi.python.org/pypi/urwid_timed_progress
-.. |Build Status| image:: https://travis-ci.org/mgk/urwid_timed_progress.svg?branch=master
-    :target: https://travis-ci.org/mgk/urwid_timed_progress
+
 .. |License| image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
     :target: https://github.com/mgk/urwid_timed_progress/blob/master/LICENSE
