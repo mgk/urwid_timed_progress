@@ -16,10 +16,10 @@ class FancyProgressBar(uw.ProgressBar):
 
     def get_text(self):
         """Return extended progress bar text"""
-        return '{} of {} {} ({})'.format(self.current,
-                                         self.done,
-                                         self.units,
-                                         uw.ProgressBar.get_text(self))
+        return '{} of {} {} ({}%)'.format(self.current,
+                                          self.done,
+                                          self.units,
+                                          int(self.current * 100 / self.done))
 
 
 class TimedProgressBar(uw.Columns):
@@ -95,6 +95,10 @@ class TimedProgressBar(uw.Columns):
         """progress amount when complete"""
         return self.bar.done
 
+    @done.setter
+    def done(self, value):
+        self.bar.done = value
+
     @property
     def elapsed(self):
         """time in seconds since the progress bar timer was last started"""
@@ -119,11 +123,17 @@ class TimedProgressBar(uw.Columns):
             return None
         else:
             remaining_progress = self.done - self.current
+            if self.rate == 0:
+                if self.done == 0:
+                    return 0
+                else:
+                    return None
+
             return remaining_progress / self.rate
 
     @property
     def remaining_time_text(self):
         try:
             return str(datetime.timedelta(seconds=round(self.remaining_time)))
-        except TypeError:
+        except:
             return ''
