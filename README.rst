@@ -10,9 +10,10 @@ Screencast
 ==========
 
 .. image:: https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screencast-thumb.png
-    :target: https://asciinema.org/a/1hp2hmv5clocdd5i5mzbgfchc
+    :target: https://asciinema.org/a/35925
 
-Example screenshot showing two progress bars:
+Example screenshot showing two progress bars
+============================================
 
 .. image::  https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screenshot.png
     :alt: Timed Progress Bars
