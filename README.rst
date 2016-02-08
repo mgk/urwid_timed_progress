@@ -9,7 +9,7 @@ progress with custom units, rate of progress, and estimated time remaining.
 Screencast
 ==========
 
-.. image:: https://asciinema.org/a/1hp2hmv5clocdd5i5mzbgfchc.png
+.. image:: https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screencast-thumb.png
     :target: https://asciinema.org/a/1hp2hmv5clocdd5i5mzbgfchc
 
 Example screenshot showing two progress bars:
@@ -17,9 +17,6 @@ Example screenshot showing two progress bars:
 .. image::  https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screenshot.png
     :alt: Timed Progress Bars
     :target: https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/examples/current_file_and_overall_progress.py
-    :width: 600
-    :height: 248
-    :align: center
 
 Installation
 ============
@@ -52,7 +49,7 @@ See `example code`_.
 Development
 ===========
 
-The project lives on GitHub. `Bug reports, questions, and comments are most welcome<https://github.com/mgk/urwid_timed_progress/issues>`_.
+The project lives on GitHub. `Bug reports, questions, and comments are most welcome <https://github.com/mgk/urwid_timed_progress/issues>`_.
 
 .. _example code: https://github.com/mgk/urwid_timed_progress/blob/master/examples/
 
