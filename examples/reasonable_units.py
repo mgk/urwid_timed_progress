@@ -14,11 +14,13 @@ if __name__ == '__main__':
         ('complete', 'white', 'dark magenta'),
     ]
 
+    # Using SI units: https://en.wikipedia.org/wiki/Kilobyte
     units = [
-        ('B', 1),
-        ('KB', 1000),
+        ('bytes', 1),
+        ('kB', 1000),
         ('MB', 1000000)
     ]
+
     bar = TimedProgressBar('normal', 'complete', done=5e7, units=units)
     status = uw.Text('simulation that demonstrates auto selecting best units')
     footer = uw.Text('q to exit, r to run simulation')
