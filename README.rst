@@ -6,6 +6,12 @@ urwid_timed_progress
 **urwid_timed_progress** is an Urwid progress widget that displays enhanced
 progress with custom units, rate of progress, and estimated time remaining.
 
+Screencast
+==========
+
+.. image:: https://asciinema.org/a/1hp2hmv5clocdd5i5mzbgfchc.png
+    :target: https://asciinema.org/a/1hp2hmv5clocdd5i5mzbgfchc
+
 Example screenshot showing two progress bars:
 
 .. image::  https://raw.githubusercontent.com/mgk/urwid_timed_progress/master/screenshot.png
@@ -43,6 +49,11 @@ To update the timer without adding progress do::
 
 See `example code`_.
 
+Development
+===========
+
+The project lives on GitHub. `Bug reports, questions, and comments are most welcome<https://github.com/mgk/urwid_timed_progress/issues>`_.
+
 .. _example code: https://github.com/mgk/urwid_timed_progress/blob/master/examples/
 
 .. |Docs| image:: https://readthedocs.org/projects/urwid-timed-progress/badge/?version=latest&style=flat
@@ -55,3 +66,5 @@ See `example code`_.
 
 .. |License| image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
     :target: https://github.com/mgk/urwid_timed_progress/blob/master/LICENSE
+
+

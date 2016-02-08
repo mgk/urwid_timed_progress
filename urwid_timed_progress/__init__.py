@@ -6,7 +6,7 @@ import datetime
 from operator import itemgetter
 from decimal import Decimal
 
-__version__ = '1.0.2'
+__version__ = '1.1.0'
 
 
 class FancyProgressBar(uw.ProgressBar):
