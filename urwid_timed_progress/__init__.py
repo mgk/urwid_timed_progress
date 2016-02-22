@@ -6,7 +6,7 @@ import datetime
 from operator import itemgetter
 from decimal import Decimal
 
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 
 class FancyProgressBar(uw.ProgressBar):
@@ -87,7 +87,7 @@ class TimedProgressBar(uw.Columns):
 
         self.reset()
 
-    def add_progress(self, delta):
+    def add_progress(self, delta, done=None):
         """Add to the current progress amount
 
         Add `delta` to the current progress amount. This also updates
@@ -97,7 +97,10 @@ class TimedProgressBar(uw.Columns):
         than :attr:`done`.
 
         :param delta: amount to add, may be negative
+        :param done: new value to use for done
         """
+        if done is not None:
+            self.done = done
         self.bar.current = max(min(self.done, self.current + delta), 0)
         self.rate_display.set_text(self.rate_text)
         self.remaining_time_display.set_text(self.remaining_time_text)
