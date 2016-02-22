@@ -1,7 +1,7 @@
 # Change Log
 This project uses [Semantic Versioning](http://semver.org/).
 
-## [**1.1.1**](https://github.com/mgk/urwid_timed_progress/releases/tag/v1.1.0) - 2016-02-22
+## [**1.1.1**](https://github.com/mgk/urwid_timed_progress/releases/tag/v1.1.1) - 2016-02-22
 
 ### Added
 - allow updating of "done" in addition to current progress
